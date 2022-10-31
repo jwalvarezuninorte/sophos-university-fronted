@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-bg-color {
+    background: linear-gradient(110.44deg, #B5C9CA 9.73%, #F6F9F8 103%)
+}
+
+.custom-rounded-modal-box {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+/* change style of scroll bar */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
